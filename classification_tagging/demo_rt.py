@@ -55,10 +55,9 @@ mask_scheduler, tokenizer) = environment_loader(args, init=False)
 
 title = 'Animesion'
 description = 'A Framework for Anime Character Recognition'
-# article = '''<p style='text-align: center'>
-#     <a href='https://arxiv.org/abs/2101.08674'>
-#     DAF:re: A Challenging, Crowd-Sourced, Large-Scale, Long-Tailed Dataset For Anime Character Recognition</a> | 
-#     <a href='https://github.com/arkel23/animesion/'>GitHub Repo</a></p>'''
+article = '''<p style='text-align: center'>
+    DAF:re: A Challenging, Crowd-Sourced, Large-Scale, Long-Tailed Dataset For Anime Character Recognition | 
+    <a href='https://github.com/Swetha-14/anime-detection'>GitHub Repo</a></p>'''
 
 #demo()
 inputs = gr.inputs.Image(type='file', label='Input image')
